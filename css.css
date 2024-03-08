@@ -1,0 +1,36 @@
+/* CSS để tùy chỉnh mũi tên */
+.slider-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  border-radius: 50%;
+  z-index: 1;
+  width: 40px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.prev {
+  left: 27px;
+}
+
+.next {
+  right: 27px;
+}
+
+.main-container {
+  position: relative;
+}
+.fixed {
+  position: absolute;
+  right: 0.1rem;
+}
